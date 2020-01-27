@@ -58,8 +58,30 @@
 - not coke = pepsi (negation)
 """
 
+import os
+scriptpath, filename = os.path.realpath(__file__), "" 
+for i in range(1,len(scriptpath)+1):
+    if scriptpath[-i] == "\\":
+        scriptpath = scriptpath[0:-i]
+        break
+if os.getcwd() != scriptpath: filename = scriptpath + "\\"
+
+
+def open_better_dic_txt(): # open the better deictioary, creates one if it doesnt exist
+        try:
+                file1, file2, file3 = open(filename+"better_pos_dictionary_abcd.txt", "r"), open(filename+"better_neut_dictionary_abcd.txt", "r"), open(filename+"better_neg_dictionary_abcd.txt", "r")
+        except:
+                tempfile1, tempfile2, tempfile3 = open(filename+"better_pos_dictionary_abcd.txt", "w"), open(filename+"better_neut_dictionary_abcd.txt", "w"), open(filename+"better_neg_dictionary_abcd.txt", "w")
+                tempfile1.close()
+                tempfile2.close()
+                tempfile3.close()
+                file1, file2, file3 = open(filename+"better_pos_dictionary_abcd.txt", "r"), open(filename+"better_neut_dictionary_abcd.txt", "r"), open(filename+"better_neg_dictionary_abcd.txt", "r")
+        get_dic(file1, pos_coeffs) 
+        get_dic(file2, neut_coeffs)   
+        get_dic(file3, neg_coeffs)   
 
 
 
 
-
+input_sentences = "I ate an apple"
+input_files = ["input1.txt"]
