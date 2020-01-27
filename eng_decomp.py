@@ -85,3 +85,9 @@ def open_better_dic_txt(): # open the better deictioary, creates one if it doesn
 
 input_sentences = "I ate an apple"
 input_files = ["input1.txt"]
+articles = ["a", "an", "the"]
+tenses = ["past", "present", "future"]
+tenses2 = ["perfect"]
+moods = ["imperative", "subjunctive"]
+part_of_speech = ["verb", "noun", "adverb", "adjictive", ""]
+common_error = ["comma splice", "fused sentences", "subject-verb agreement", "pronoun agreement", ""]
