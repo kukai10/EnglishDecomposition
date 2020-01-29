@@ -1,0 +1,109 @@
+I, <Pronoun>, <subject>, <first person>, <singular>,<neutral>
+you, <Pronoun>, <subject>,<second person>, <singular>,<neutral>
+you, <Pronoun>, <subject>,<second person>,<Plural>,<neutral>
+she, <Pronoun>, <subject>,<third person>, <singular>,<feminine>
+he, <Pronoun>, <subject>,<third person>, <singular>,<masculine>
+it, <Pronoun>, <subject>,<third person>, <singular>,<neutral>
+we, <Pronoun>, <subject>, <first person>,<Plural>,<neutral>
+they, <Pronoun>, <subject>,<third person>,<Plural>,<neutral>
+one, <Pronoun>,<subject>,<third person>,<singular>,
+,,,,,
+me, <Pronoun>,<object>, <first person>, <singular>,<neutral>
+you, <Pronoun>,<object>,<second person>, <singular>,<neutral>
+you, <Pronoun>,<object>,<second person>,<plural>,<neutral>
+her, <Pronoun>,<object>,<second person>, <singular>,<feminine>
+him, <Pronoun>,<object>,<second person>, <singular>,<masculine>
+it, <Pronoun>,<object>,<second person>, <singular>,<neutral>
+us, <Pronoun>,<object>, <first person>,<plural>,<neutral>
+them, <Pronoun>,<object>,<third person>,<plural>,<neutral>
+,,,,,
+possesive determiner ,,,,,
+my,<adj>,<possessive>, <first person>, <singular>,<neutral>
+your,<adj>,<possessive>,<second person>,<plural>,<neutral>
+your,<adj>,<possessive>,<second person>,<plural>,<neutral>
+his,<adj>,<possessive>,<second person>, <singular>,<masculine>
+her,<adj>,<possessive>,<second person>, <singular>,<feminine>
+its,<adj>,<possessive>,<second person>, <singular>,<neutral>
+our,<adj>,<possessive>,<second person>,<plural>,<neutral>
+their,<adj>,<possessive>, <first person>,<plural>,<neutral>
+one's,<adj>,<possessive>,<third person>,<singular>,<neutral>
+,,,,,
+mine, <Pronoun>,<possessive>,<first person>,<singular>,<neutral>
+yours, <Pronoun>,<possessive>,<second person>,<singular>,<neutral>
+yours ,<pronoun>,<possessive>,<second person>,<plural>,<neutral>
+his, <Pronoun>,<possessive>,<second person>,<singular>,<masculine>
+hers, <Pronoun>,<possessive>,<second person>,<singular>,<feminine>
+its used with own, <Pronoun>,<possessive>,<second person>,<singular>,<neutral>
+ours, <Pronoun>,<possessive>,<first person>,<plural>,<neutral>
+theirs, <Pronoun>,<possessive>,<third person>,<plural>,<neutral>
+one's used with own, <Pronoun>,<possessive>,<third person>,<singular>,<neutral>
+,,,,,
+,,,,,
+,,,,,
+indefinite - have negative, universal, assertive existential, elective existential, alternative,
+# negative indefinite pronoun,,,,,
+no one,<pronoun>,<indefinite>,<negative>,<singular>,<person>
+nobody,<pronoun>,<indefinite>,<negative>,<singular>,<person>
+nothing,<pronoun>,<indefinite>,<negative>,<singular>,<thing>
+neither,<pronoun>,<indefinite>,<negative>,<dual>,
+none,<pronoun>,<indefinite>,<negative>,<singular>,
+none,<pronoun>,<indefinite>,<negative>,<plural>,
+nowhere,<pronoun>,<indefinite>,<negative>,,
+never,<pronoun>,<indefinite>,<negative>,,
+,,,,,
+,,,,,
+# indefinite pronoun, universal,,,,
+everyone,<pronoun>,<indefinite>,<universal>,,
+everybody,<pronoun>,<indefinite>,<universal>,,
+everything,<pronoun>,<indefinite>,<universal>,,
+each **,<pronoun>,<indefinite>,<universal>,,
+both,<pronoun>,<indefinite>,<universal>,,
+all,<pronoun>,<indefinite>,<universal>,,
+,,,,,
+#indefinite pronoun, assertive existential,,,,
+someone,<pronoun>,<indefinite>,<assertive existential>,<singular>,
+somebody,<pronoun>,<indefinite>,<assertive existential>,<singular>,
+something,<pronoun>,<indefinite>,<assertive existential>,<singular>,
+some,<pronoun>,<indefinite>,<assertive existential>,<plural>,
+,,,,,
+#indefinite pronoun, elective/dubitative existential,,,,
+anyone,<pronoun>,<indefinite>,<Elective/Dubitative existential>,<singular>,
+anybody,<pronoun>,<indefinite>,<Elective/Dubitative existential>,<singular>,
+anything,<pronoun>,<indefinite>,<Elective/Dubitative existential>,<singular>,
+either,<pronoun>,<indefinite>,<Elective/Dubitative existential>,<dual>,
+any,<pronoun>,<indefinite>,<Elective/Dubitative existential>,<plural>,
+,,,,,
+#indefinite pronoun,alternative,,,,
+one,<pronoun>,<indefinite>,<alternative>,<singular>,<person>
+whoever,<pronoun>,<indefinite>,<alternative>,<singular>,<person>
+whomever,<pronoun>,<indefinite>,<alternative>,<singular>,<person>
+this,<pronoun>,<indefinite>,<alternative>,<singular>,<thing>
+whichever,<pronoun>,<indefinite>,<alternative>,<singular>,<thing>
+another,<pronoun>,<indefinite>,<alternative>,<singular>,
+other,<pronoun>,<indefinite>,<alternative>,<singular>,
+others,<pronoun>,<indefinite>,<alternative>,<plural>,
+such,<pronoun>,<indefinite>,<alternative>,<plural>,
+whatever,<pronoun>,<indefinite>,<alternative>,<plural>,
+,,,,,
+reflexive,,,,,
+myself,<pronoun>,<reflexive>,,,
+yourself,<pronoun>,<reflexive>,,,
+himself,<pronoun>,<reflexive>,,,
+herself,<pronoun>,<reflexive>,,,
+itself,<pronoun>,<reflexive>,,,
+ourselves,<pronoun>,<reflexive>,,,
+yourselves,<pronoun>,<reflexive>,,,
+themselves,<pronoun>,<reflexive>,,,
+,,,,,
+relative,,,,,
+who,<pronoun>,<relative>,,,
+whom,<pronoun>,<relative>,,,
+which,<pronoun>,<relative>,,,
+that,<pronoun>,<relative>,,,
+whose,<pronoun>,<relative>,,,
+where,<pronoun>,<relative>,,,
+when,<pronoun>,<relative>,,,
+why,<pronoun>,<relative>,,,
+what ,<pronoun>,<relative>,,,
+,,,,,
+quantifier,,,,,
