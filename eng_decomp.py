@@ -66,4 +66,15 @@ for i in range(1,len(scriptpath)+1):
 if os.getcwd() != scriptpath: filename = scriptpath + "\\"
 
 
+#open input file
 
+#open words file
+
+#open output file
+
+#do a syntactical decomposition
+# meaning decomposition
+# look for errors
+# put the words in a NLP NN
+# example possesive before a gerund
+# is what and who a subject pronoun?
