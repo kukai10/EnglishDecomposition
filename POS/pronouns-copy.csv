@@ -1,0 +1,73 @@
+I, <Pronoun>, <subject>, <first person>, <singular>
+you, <Pronoun>, <subject>,<second person>, <singular>
+you, <Pronoun>, <subject>,<second person>,<Plural>
+she, <Pronoun>, <subject>,<third person>, <singular>
+he, <Pronoun>, <subject>,<third person>, <singular>
+it, <Pronoun>, <subject>,<third person>, <singular>
+we, <Pronoun>, <subject>, <first person>,<Plural>
+they, <Pronoun>, <subject>,<third person>,<Plural>
+one, <Pronoun>,<subject>,<third person>,<singular>
+,,,,
+Object,,,,
+me, <Pronoun>,<object>, <first person>, <singular>
+you, <Pronoun>,<object>,<second person>, <singular>
+you, <Pronoun>,<object>,<second person>,<plural>
+her, <Pronoun>,<object>,<second person>, <singular>
+him, <Pronoun>,<object>,<second person>, <singular>
+it, <Pronoun>,<object>,<second person>, <singular>
+us, <Pronoun>,<object>, <first person>,<plural>
+them, <Pronoun>,<object>,<third person>,<plural>
+,,,,
+,,,,
+possesive determiner ,,,,
+my,<adj>,<possessive>, <first person>, <singular>
+your,<adj>,<possessive>,<second person>,<plural>
+your,<adj>,<possessive>,<second person>,<plural>
+his,<adj>,<possessive>,<second person>, <singular>
+her,<adj>,<possessive>,<second person>, <singular>
+its,<adj>,<possessive>,<second person>, <singular>
+our,<adj>,<possessive>,<second person>,<plural>
+their,<adj>,<possessive>, <first person>,<plural>
+one's,<adj>,<possessive>,<third person>,<singular>
+,,,,
+pronoun,,,,
+mine, <Pronoun>,<possessive>,,<possessive>
+yours, <Pronoun>,<possessive>,<possessive>,<possessive>
+his, <Pronoun>,<possessive>,<possessive>,<possessive>
+hers, <Pronoun>,<possessive>,<possessive>,<possessive>
+its used with own, <Pronoun>,<possessive>,<possessive>,<possessive>
+ours, <Pronoun>,<possessive>,<possessive>,<possessive>
+theirs, <Pronoun>,<possessive>,<possessive>,<possessive>
+one's used with own, <Pronoun>,<possessive>,<possessive>,<possessive>
+,,<possessive>,<possessive>,<possessive>
+indefinite - have negative, universal, assertive existential, elective existential, alternative
+# negative indefinite pronoun,,,,
+no one,,,,
+nobody,,,,
+nothing,,,,
+neither,,,,
+none,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+# indefinite pronoun, universal,,,
+everyone,,,,
+everybody,,,,
+everything,,,,
+each **,,,,
+both,,,,
+all,,,,
+,,,,
+#indefinite pronoun, assertive existential,,,
+someone,,,,
+somebody,,,,
+something,,,,
+some,,,,
+,,,,
+#indefinite pronoun, elective dubitative,,,
+,,,,
+reflexive,,,,
+,,,,
+relative,,,,
