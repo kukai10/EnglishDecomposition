@@ -1,73 +1,73 @@
-I, <Pronoun>, <subject>, <first person>, <singular>,
-you, <Pronoun>, <subject>, <first person>, <singular>,
-you plural
-she, <Pronoun>, <subject>, <first person>, <singular>,
-he, <Pronoun>, <subject>, <first person>, <singular>,
-it, <Pronoun>, <subject>, <first person>, <singular>,
-we, <Pronoun>, <subject>, <first person>, <singular>,
-they, <Pronoun>, <subject>, <first person>, <singular>,
-one
-
-Object
-me, <Pronoun>, <subject>, <first person>, <singular>,
-you, <Pronoun>, <subject>, <first person>, <singular>,
-her, <Pronoun>, <subject>, <first person>, <singular>,
-him, <Pronoun>, <subject>, <first person>, <singular>,
-it, <Pronoun>, <subject>, <first person>, <singular>,
-us, <Pronoun>, <subject>, <first person>, <singular>,
-them, <Pronoun>, <subject>, <first person>, <singular>,
-
-
-possesive pronoun, vs possessive determiner
-possesive determiner 
-my
-your
-his
-her
-its
-our
-their
-one's
-
-
-pronoun
-mine
-yours
-his
-hers
-its used with own
-ours
-theirs
-one's used with own
-
+I, <Pronoun>, <subject>, <first person>, <singular>
+you, <Pronoun>, <subject>, <first person>, <singular>
+you plural,,,,
+she, <Pronoun>, <subject>, <first person>, <singular>
+he, <Pronoun>, <subject>, <first person>, <singular>
+it, <Pronoun>, <subject>, <first person>, <singular>
+we, <Pronoun>, <subject>, <first person>, <singular>
+they, <Pronoun>, <subject>, <first person>, <singular>
+one,,,,
+,,,,
+Object,,,,
+me, <Pronoun>, <subject>, <first person>, <singular>
+you, <Pronoun>, <subject>, <first person>, <singular>
+her, <Pronoun>, <subject>, <first person>, <singular>
+him, <Pronoun>, <subject>, <first person>, <singular>
+it, <Pronoun>, <subject>, <first person>, <singular>
+us, <Pronoun>, <subject>, <first person>, <singular>
+them, <Pronoun>, <subject>, <first person>, <singular>
+,,,,
+,,,,
+possessive pronoun, vs possessive determiner,,,
+possessive determiner ,,,,
+my,<Adj>,<possessive>,<first person>,
+your,<Adj>,<possessive>,,
+his,<Adj>,<possessive>,,
+her,<Adj>,<possessive>,,
+its,<Adj>,<possessive>,,
+our,<Adj>,<possessive>,,
+their,<Adj>,<possessive>,,
+one's,<Adj>,<possessive>,,
+,,,,
+,,,,
+pronoun,,,,
+mine,,,,
+yours,,,,
+his,,,,
+hers,,,,
+its used with own,,,,
+ours,,,,
+theirs,,,,
+one's used with own,,,,
+,,,,
 indefinite - have negative, universal, assertive existential, elective existential, alternative
-# negative indefinite pronoun
-no one
-nobody
-nothing
-neither
-none
-
-
-
-
-
-# indefinite pronoun, universal
-everyone
-everybody
-everything
-each **
-both
-all
-
-#indefinite pronoun, assertive existential
-someone
-somebody
-something
-some
-
-#indefinite pronoun, elective dubitative
-
-reflexive
-
-relative
+# negative indefinite pronoun,,,,
+no one,,,,
+nobody,,,,
+nothing,,,,
+neither,,,,
+none,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+# indefinite pronoun, universal,,,
+everyone,,,,
+everybody,,,,
+everything,,,,
+each **,,,,
+both,,,,
+all,,,,
+,,,,
+#indefinite pronoun, assertive existential,,,
+someone,,,,
+somebody,,,,
+something,,,,
+some,,,,
+,,,,
+#indefinite pronoun, elective dubitative,,,
+,,,,
+reflexive,,,,
+,,,,
+relative,,,,
