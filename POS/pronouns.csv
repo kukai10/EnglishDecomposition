@@ -1,3 +1,4 @@
+word,pos,type,tense,number
 I, <Pronoun>, <subject>, <first person>, <singular>
 you, <Pronoun>, <subject>, <first person>, <singular>
 you plural,,,,
@@ -47,7 +48,6 @@ nobody,,,,
 nothing,,,,
 neither,,,,
 none,,,,
-,,,,
 ,,,,
 ,,,,
 ,,,,
