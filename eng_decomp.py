@@ -29,14 +29,14 @@ def open_csv(filepath, default):
     except Exception:
         print("exception, the filename you requested to open was not found.")
         if (input("do you want to make a new file? 1 for yes, 0 for no") == 1):
-            df_def.to_csv(filepath, index=False, header=False)
+            default.to_csv(filepath, index=False, header=False)
     return x;
     
 def save_df_to_csv(filepath, content):
-    content.to_csv(filename, index=False, header=False)
+    content.to_csv(filepath, index=False, header=False)
 
-def save_pickle(filepath, context):
-    pass
+def save_pickle(filepath, content):
+    content.to_pickle(filepath)
 
 def edit_dataframe(data_df):
     pass
