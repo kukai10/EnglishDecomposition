@@ -1,58 +1,3 @@
-"""goals of this project:
-# - the program should be able to take formal and normal (text, speech, everyday conversation, etc) sentences as inputs
-# - find clauses that resides in sentences, then clasify them into types of clauses (main, subordinating, etc)
-#   as well as classify phrases and clauses that acts , as a whole, as a specific part od speach, ex: adjectival phrases 
-"""
-"""part of sentences and related vocabs:
-- noun, verb
-- adjective, modify noun, pronoun, or other adjectives, clauses can act adjectivally
-- adverb, modify verb, ussually answers the 4W and H ("where", "when", "what", "who", "How")
-- coordinating conjunction (and, but, so, or , for, nor, yet)
-- pronoun (subject, object, indefinite, possesive, reflexive, relative)
-- appositives
-- articles/ determiner (a, an, the, no articles)
-- conjunctive adverb (However, therefore, thus, etc)
-- dashes
-- quantifier
-- gerunds
-imperative(mood), indicative (mood), subjunctive (mood)
-- infinitve verbs
-- interruptive
-- main clause
-- restrictive vs non-restricitve
-- parallel structure
-- participle (verb, ussually with -ed or -ing, that act adjectivally)
-- tense (past, present, future, perfect)
-- preposition, denote relationships (about, up, down, on, in, around, among, with, ..., etc)
-- prepositional phrases
-- split infinitive
-- fronting
-- punctuation, (comma, colon, semicolon, appostrophe, dash, quotes, end punctuation)
-"""
-"""thigs to look out for or errors to recognize:
-- subject-verb agreement error
-- semicolon error (mc ; coordinating conjunction, mc), or lists with internal punctuation
-- oxford/serial comma
-- appostrophie error, comma splice
-- sentence fragment or run-on sentences
-- stylistic liberties
-- possesive before gerunds
-- missplaced modifier
-- commonly misspelled words
-- common confusing words (affect vs effect)
-"""
-"""things required:
-- function that decompose the input
-- output with the description
-- part of speach detector
-- learn meaning and figure the meaning of the sentence
-- multiple input and output files
-- saves floating value in txt
-- expand dictionary
-- relationship between other words
-- king - man = queen, video - image = voice
-- not coke = pepsi (negation)
-"""
 import os
 import pickle
 import pandas as pd
@@ -78,20 +23,22 @@ def load_pickle(filepath, default):
             pickle.dump(x, f)
     return x
 
-def open_csv(filepath):
-    #list_of_words = {"apple": [["noun"], ["def: red fruit"]], "fruit": [["noun"], ["def: category of food"]]}
-    #df_def = pd.DataFrame.from_dict(list_of_words)
-    #print(df_def)
+def open_csv(filepath, default):
     try:
         x = pd.read_csv(filepath, error_bad_lines=False)
     except Exception:
-        print("except")
-        #df_def.to_csv()
-
-def save_csv(filepath, content):
-    content.to_csv(filename)
+        print("exception, the filename you requested to open was not found.")
+        if (input("do you want to make a new file? 1 for yes, 0 for no") == 1):
+            df_def.to_csv(filepath, index=False, header=False)
+    return x;
+    
+def save_df_to_csv(filepath, content):
+    content.to_csv(filename, index=False, header=False)
 
 def save_pickle(filepath, context):
+    pass
+
+def edit_dataframe(data_df):
     pass
 
 def load_metadata(filepath):
@@ -112,33 +59,92 @@ def decide_mode(modes):
         switch = True if usr_input in index_list else False 
     if switch: usr_input = index_list[int(usr_input)]
     return usr_input
+
+def make_NN(node_num, layer_num, architecture):
+    pass
+
+def train_NN(NN, sentences):
+    pass
+
+def test_NN(NN, sentences):
+    pass
+
+def tokenize(sentence):
+    pass
+
+def visualize_tree(sentence):
+    pass
+
+def parse_text(sentence):
+    pass
+
+def backpropagate():
+    pass
+
+def sigmoid():
+    pass
+
+def chain_rule():
+    pass
+
+def calculate_node_val():
+    pass
+
+def add_to_dictionary():
+    pass
+
+def update_single_word():
+    #dot product and upgrade
+    pass
+
+def use_cuda():
+    pass
+
+def POS_markov_chain(inputPOS, outputPOS):
+    markovChain = [
+        ["Articles", "Noun", "verb", "gerund"], 
+        [],
+
+
+
+
+
+    ]
     
 def main():
-    list_of_words = {"apple": [["noun"], ["def: red fruit"]], "fruit": [["noun"], ["def: category of food"]]}
+    list_of_words = {
+    "apple": [["noun"], ["def: red fruit"]], 
+    "fruit": [["noun"], ["def: category of food"]],
+    "School": [["noun"], ["def: place to learn"]],
+    "apple": [["noun"], ["def: evil company that brainwash people and force them to pay 10x the actual value"]],
+    "microsoft": [["noun"], ["def: another evil company that monitize their product, not as evil as apple"]],
+    "computer": [["noun"], ["electronics used to code and go to reddit"]],
+    "lain": [["noun"], ["let's all love lain"]],
+    "wired": [["noun"], ["a superior synonym for internet"]]
+    }
     df_def = pd.DataFrame.from_dict(list_of_words)
     print(df_def)
     mode_option = ["training", "add input", "create output", "exit"]
     mode = decide_mode(mode_option)
-    current_dir = get_cd()
-    input_file = current_dir+"Input\\"
-    output_file = current_dir+"Output\\"
-    POS_file = current_dir+"POS\\"
-    pickle_name = current_dir+"Eng.pickle"
-    csv_names = ["Pronouns.csv"] #["Articles.csv", "common_noun.csv", "proper_noun.csv"]
-    cvsfiles = open_csv(POS_file+csv_names[0])
-    for index, row in cvsfiles.iterrows():
-        if index < 10:
-            #print(index, row)
-            print(row.to_frame().T)
+    if mode == mode_option[0]:
+        current_dir = get_cd()
+        input_file = current_dir+"Input\\"
+        output_file = current_dir+"Output\\"
+        POS_file = current_dir+"POS\\"
+        pickle_name = current_dir+"Eng.pickle"
+        csv_names = ["Pronouns.csv"] #["Articles.csv", "common_noun.csv", "proper_noun.csv"]
+        cvsfiles = open_csv(POS_file+csv_names[0])
+        for index, row in cvsfiles.iterrows():
+            if index < 10:
+                print(row.to_frame().T)
+        eng_dict = {}
 
-    eng_dict = {}
-    
-    # a key: value pair in the dictionary will look like the following:
-    #  "___word___" : [
-    #                   [["tags"], ["definitions, meaning"], (vector)], 
-    #                   [[], []], ...
-    #                  ]
-
+    elif mode == mode_option[1]:
+        pass
+    elif mode == mode_option[2]:
+        pass
+    elif mode == mode_option[3]:
+        pass
     #pickle.dump(data, pickle_on)
     #pickle_on.close()
     #cvsfiles.close()
@@ -147,6 +153,23 @@ def main():
     # look for errors
     # put the words in a NLP NN
     # example possesive before a gerund, is what and who a subject pronoun?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 if __name__=="__main__":  
     main()
