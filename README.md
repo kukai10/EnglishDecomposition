@@ -46,10 +46,10 @@ High level functions:
 |joined.csv| 410.5   |2891958   | Win  |
 |df.pkl     | 2.917   |1171876   | win  |
 |df.join.pkl|3.582   | 1367191  | Win  |
-|df.csv     | 385.2   |   |  |
-|joined.csv| 410.5   |   |  |
-|df.pkl     | 2.917   |   |   |
-|df.join.pkl|3.582   |   |  |
+|df.csv     | 215.94   |  2,890,479 | Linux  |
+|joined.csv| 231.79   | 2,960,859  | Linux |
+|df.pkl     | 1.1338   |1,200,000   | Linux  |
+|df.join.pkl| 1.326   |   1,400,003| Linx |
 
 to make 1st df 2.417536497116089
 to save data frame 385.21645975112915 and as a whole took 387.63399624824524
@@ -58,6 +58,14 @@ made weird array size 50:  2.923182964324951
 joining 2.9949910640716553
 saving bigger csv 410.49287390708923
 end 3.5824198722839355
+
+to make 1st df 1.2434520721435547
+to save data frame 215.94413137435913 and as a whole took 217.18758344650269
+to save pickle: 1.1332879066467285
+made weird array size 50:  1.14853835105896
+joining 2.0772454738616943
+saving bigger csv 231.79537892341614
+end 1.3264822959899902
 
 
 
