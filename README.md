@@ -39,7 +39,26 @@ High level functions:
 <a id = "getting-started"></a> 
 ##POS
 
------------|-----------------------------|-----------|-------
+
+|file type | time | storage | OS|
+|-----------|--------------|-----------|-------|
+|df.csv     | 385.2   | 2823226   | Win  |
+|joined.csv| 410.5   |2891958   | Win  |
+|df.pkl     | 2.917   |1171876   | win  |
+|df.join.pkl|3.582   | 1367191  | Win  |
+|df.csv     | 385.2   |   |  |
+|joined.csv| 410.5   |   |  |
+|df.pkl     | 2.917   |   |   |
+|df.join.pkl|3.582   |   |  |
+
+to make 1st df 2.417536497116089
+to save data frame 385.21645975112915 and as a whole took 387.63399624824524
+to save pickle: 2.917198657989502
+made weird array size 50:  2.923182964324951
+joining 2.9949910640716553
+saving bigger csv 410.49287390708923
+end 3.5824198722839355
+
 
 
 Noun | verb | adjectives | adverb | coordinating conjunction
