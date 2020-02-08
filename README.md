@@ -1,5 +1,5 @@
 # EnglishDecomposition
- Decompose sentences and paragraphs using clause analysis and part of speach
+ Decompose sentences and paragraphs using clause analysis and part of speach tags (tokenizing).  Then using the analysis from the parsing 
 
  Languages: [English](README.md), [日本語/Japanese](README.jp.md)
  - [General and Getting Started](#getting-started)
@@ -19,12 +19,12 @@
 
 --- 
 <a id = "getting-started"></a> 
-##General and Getting Started:
+## General and Getting Started:
 
 
 ---
 <a id = "intro"></a> 
-###Motivation for this project
+### Motivation for this project
 When I was in my English class, I learned about a class of sentences called "garden-path sentences", correct sentences designed to lure the reader in making a wrong interpertation.  It's called "garden-path sentences" because the sentences lure the reader into a dead-end and the reader needs multiple attempts at decoding the words.  Many online translators and grammer/spelling fixing programs fails to understand these garden path sentences. Heck, if you know another language, you can decode what the program's interpertation by translating the sentence. A very funny problem, but worrying to me, is the fact that google-translate interperts "the old man the boat" as two noun prase, "the old man" and "the boat".  Google-translate is the go-to translator for many people, even I use it for English to Japanese and vice versa; but google-translator have its issues and they haven't attempted to make their models better or fix these problems.
 
 The goal of this project is to make functions that is required for processing natural language and impliment a neural network that takes in the processed data and respond in a natural manner. 
