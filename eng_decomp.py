@@ -30,7 +30,7 @@ def open_csv(filepath, default):
         print("exception, the filename you requested to open was not found.")
         if (input("do you want to make a new file? 1 for yes, 0 for no") == 1):
             default.to_csv(filepath, index=False, header=False)
-    return x;
+    return x
     
 def save_df_to_csv(filepath, content):
     content.to_csv(filepath, index=False, header=False)
